@@ -14,18 +14,20 @@ BuildRequires:	freeglut-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Alpha Shooter is a 3D OpenGL first-person shooter game with a sci-fi setting.
+Alpha Shooter is a 3D OpenGL first-person shooter game with a sci-fi
+setting.
 
 %description -l pl.UTF-8
-Alpha Shooter jest trójwymiarową grą fpp używającą OpenGL z oprawą sci-fi.
+Alpha Shooter jest trójwymiarową grą fpp używającą OpenGL z
+oprawą sci-fi.
 
 %prep
 %setup -q
 %patch0 -p1
 
 %build
-make linux \
-	CC="%{__cc}" 
+%{__make} linux \
+	CC="%{__cc}"
 	CFLAGS="%{rpmcflags}" \
 	LDFALGS="%{rpmldflags}"
 
