@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/alphashooter/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-Makefile.patch
 URL:		http://alphashooter.sourceforge.net/
 BuildRequires:	OpenGL-GLU-devel
-BuildRequires:	freeglut-devel
+BuildRequires:	OpenGL-glut-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
