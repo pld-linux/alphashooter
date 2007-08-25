@@ -1,5 +1,5 @@
 Summary:	3D first-person shooter
-Summary(pl.UTF-8):	Trójwymiarowa gra typu fpp
+Summary(pl.UTF-8):	Trójwymiarowa strzelanina typu FPP
 Name:		alphashooter
 Version:	0.0.3
 Release:	1
@@ -18,7 +18,7 @@ Alpha Shooter is a 3D OpenGL first-person shooter game with a sci-fi
 setting.
 
 %description -l pl.UTF-8
-Alpha Shooter jest trójwymiarową grą fpp używającą OpenGL z
+Alpha Shooter jest trójwymiarową strzelaniną FPP używającą OpenGL z
 oprawą sci-fi.
 
 %prep
